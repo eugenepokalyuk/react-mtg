@@ -1,0 +1,43 @@
+.main {
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 90svh;
+}
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    margin-top: 16px;
+}
+
+.reviews {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: start;
+
+    @media (min-width: 768px) {
+        align-items: stretch;
+    }
+}
+
+.pageButton {
+    margin: 0 6px;
+    padding: 8px 16px;
+    border: none;
+    background-color: #fd6102;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 6px;
+
+    &:hover {
+        background-color: #e65901;
+    }
+
+    &.active {
+        background-color: #ca4e01;
+    }
+}

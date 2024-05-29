@@ -1,0 +1,48 @@
+.review {
+    width: 100%;
+    margin: 10px auto;
+    padding: 16px;
+    border-radius: 10px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+
+    &:hover {
+        transform: translateY(-5px);
+    }
+}
+
+.name {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.text {
+    font-size: 14px;
+    margin: 8px 0;
+}
+
+.date {
+    font-size: 12px;
+    color: #888;
+}
+
+@media (min-width: 768px) {
+    .review {
+        width: 300px;
+        margin: 8px;
+    }
+}
+
+@media (min-width: 1024px) {
+    .review {
+        width: 400px;
+    }
+}
+
+@media (min-width: 1440px) {
+    .review {
+        width: 30%;
+    }
+}
