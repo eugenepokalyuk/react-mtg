@@ -9,7 +9,7 @@ This project is a Single Page Application (SPA) built using React (class compone
   - Includes a dropdown for selecting languages (ru, en).
   - Shows the current time in the format "hh:mm:ss".
 - **Main Section**:
-  - Displays a list of reviews (data sourced from `data.json`).
+  - Displays a list of reviews (data sourced from `data.ts`).
   - Each review includes the client's name, review text, and date.
   - Paginated view with a maximum of 10 reviews per page.
   - The client's name is displayed in the format "Last Name First Initial".
