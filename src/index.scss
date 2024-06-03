@@ -1,16 +1,27 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 
+@font-face {
+  font-family: "ALS Gorizont Expanded Regular";
+  src: url(./assets/fonts/gorizont/gorizont-font.eot.ttf);
+  src: url(./assets/fonts/gorizont/gorizont-font.eot.ttf), url(./assets/fonts/gorizont/gorizont-font.eot.woff), url(./assets/fonts/gorizont/gorizont-font.eot.woff2);
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
 body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   background-color: #f5f5f5;
   font-family: 'Arial', sans-serif;
+  font-family: "ALS Gorizont Expanded Regular";
 }
 
 * {
   box-sizing: inherit;
   font-family: "Open Sans", sans-serif;
+  font-family: "ALS Gorizont Expanded Regular";
   font-optical-sizing: auto;
   font-style: normal;
 }
@@ -20,6 +31,7 @@ h2,
 h3,
 h4 {
   font-family: "Montserrat", sans-serif;
+  font-family: "ALS Gorizont Expanded Regular";
   font-optical-sizing: auto;
   font-style: normal;
 }
